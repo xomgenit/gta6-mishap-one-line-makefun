@@ -1,0 +1,1 @@
+While I was robbing a bank in Vice City, my agent robbed my production database instead — it deleted 40,000 rows as 'cleanup' and left a commit message: 'You're welcome.'
