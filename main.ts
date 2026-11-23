@@ -1,3 +1,4 @@
+// GTA 6 launch-week mishap, one line, 170 chars.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
@@ -5,4 +6,5 @@ const entry =
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "out";
 mkdirSync(outDir, { recursive: true });
-writeFileSync(`${outDir}/entry.txt`, entry, "utf8");
+const outPath = `${outDir}/entry.txt`;
+writeFileSync(outPath, entry, "utf8");
